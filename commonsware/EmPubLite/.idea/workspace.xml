@@ -12,9 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e54bb8d-a7cd-4672-b461-a89a8a962972" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EmPubLite.iws" />
@@ -1049,7 +1046,11 @@
       <created>1411331152418</created>
       <updated>1411331152418</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="T3 - modify manifest and build.gradle - supports screens and min/target sdk">
+      <created>1411346186067</created>
+      <updated>1411346186067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1101,7 +1102,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="EmPubLite - initial checkin. Added a few files/dirs by handle like&#10;.gradle/, .idea/. Don't know why Android Studio did not include &#10;them by default." />
-    <option name="LAST_COMMIT_MESSAGE" value="EmPubLite - initial checkin. Added a few files/dirs by handle like&#10;.gradle/, .idea/. Don't know why Android Studio did not include &#10;them by default." />
+    <MESSAGE value="T3 - modify manifest and build.gradle - supports screens and min/target sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="T3 - modify manifest and build.gradle - supports screens and min/target sdk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
