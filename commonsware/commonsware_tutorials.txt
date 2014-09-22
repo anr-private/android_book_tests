@@ -20,9 +20,29 @@ COMMONSWARE TUTORIALS
 18 Notifying the user
 19 Supporting large screens
 
+EmPubLite/ contains all tutorial projects
+ T2-Project
+ T3-Manifest
+ T4-Resources
+ T5-Progress
+ T6-Library
+ T7-ActionBar
+ T8-Activities
+ T9-Fragments
+T10-ViewPager
+T11-HelpAbout
+T12-Book
+T13-Prefs
+T14-Database
+T15-Share
+T16-Update
+T17-Alarm
+T18-Notify
+T19-LargeScreen
 
 
-	Accessibility/FontScale
+
+Accessibility/FontScale
 Accessibility/Hotkey
 ActionBar/ActionBarDemo
 ActionBar/ActionBarDemoNative
