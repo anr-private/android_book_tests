@@ -1088,7 +1088,11 @@
       <created>1411353389306</created>
       <updated>1411353389306</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="no real changes&#10;">
+      <created>1411358773310</created>
+      <updated>1411358773310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1143,7 +1147,8 @@
     <MESSAGE value="EmPubLite - initial checkin. Added a few files/dirs by handle like&#10;.gradle/, .idea/. Don't know why Android Studio did not include &#10;them by default." />
     <MESSAGE value="T3 - modify manifest and build.gradle - supports screens and min/target sdk" />
     <MESSAGE value="Added a couple textviews to main gui. Still using RelativeLayout as base layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a couple textviews to main gui. Still using RelativeLayout as base layout." />
+    <MESSAGE value="no real changes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="no real changes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
