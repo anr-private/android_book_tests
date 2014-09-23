@@ -16,6 +16,7 @@ EmPubLite/early_try  - this is T3 or T4 very early version of the
   
 EmPubLite/t7_action_bar - T7 adds a couple of menu items. Only one Activity; it contains a progress bar (that never gets updated/finished). 
 
+EmPubLite/T8_Activities - T8 adds activities that get invoked by menu. The activities contain nothing - show an empty screen. Use BACK to go back. 
 
 
 =============================================================
