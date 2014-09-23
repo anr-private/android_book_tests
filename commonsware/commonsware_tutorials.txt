@@ -1,5 +1,38 @@
 COMMONSWARE TUTORIALS
 
+Projects that have been either imported from the original 
+source dirs or have been created from scratch.
+
+=============================================================
+
+TUTORIALS  T1..T19
+
+The book tutorials are number T1..T19. They are all based on the EmPubLite running example. Each tutorial adds more function to the example.
+
+The tutorials that have been imported are all in EmPubLite/.
+
+EmPubLite/early_try  - this is T3 or T4 very early version of the
+  example; does not do hardly anything
+  
+EmPubLite/t7_action_bar - T7 adds a couple of menu items. Only one Activity; it contains a progress bar (that never gets updated/finished). 
+
+
+
+=============================================================
+
+EXAMPLES imported
+
+activities/Explicit 
+
+Simple 2-activity app. First activity has a single button that fills the screen. Pressing the button invokes the second activity, which has only a textview. Need to press BACK to go back. Items featured: AndroidManifest.xml has a second <Activity>. There is a layout xml and an implementation class for the second activity (called 'other').
+
+
+
+=============================================================
+
+The original source dirs from the author.
+
+These are the tutorials per the book: T1..T19
  1 Installing tools
  2 Creating stub project
  3 Changing manifest 
@@ -393,6 +426,6 @@ WidgetCatalog/Tab
 WidgetCatalog/TimePicker
 WidgetCatalog/ViewFlipper
 
-:mode=text:maxLineLen=72:
+:mode=text:maxLineLen=72:wrap=soft:
 ### end ###
 
