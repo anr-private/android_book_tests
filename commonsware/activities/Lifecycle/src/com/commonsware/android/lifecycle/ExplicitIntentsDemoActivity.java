@@ -18,6 +18,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+// This is the main activity (see AndroidManifest.xml)
+
+// To see the log files, use this filter in logcat:  ^.*Activity$
+// which means
+//   ^  start of line
+//  .*  any seq of any chars
+//  Activity  literal 'Activity'
+//   $ end of line
+// Ie matches lines that end with Activity.
+
 public class ExplicitIntentsDemoActivity extends
     LifecycleLoggingActivity {
   @Override
