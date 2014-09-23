@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="hello">I am the first activity!</string>
+	<string name="btnText">I am a button on the first activity! \n Push me!</string>
 	<string name="app_name">Explicit Intents Demo</string>
-	<string name="other">I am the other activity!</string>
+	<string name="otherTextviewContent">I am a TextView on the other activity! \n Use BACK to go back.</string>
 
 </resources>
