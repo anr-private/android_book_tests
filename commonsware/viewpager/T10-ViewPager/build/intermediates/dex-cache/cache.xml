@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/build/intermediates/pre-dexed/debug/android-support-v13-5c9b01c34fffa5ef801376b32ae12eb7cd3dbc9c.jar"
+        jar="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f5fa2183e286730a81f3076f19022539902a24f3"/>
+    <item
+        dex="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/build/intermediates/pre-dexed/debug/eventbus-2.2.1-e47d65abece787538cfe124fe6dd8a51ffa9eded.jar"
+        jar="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/libs/eventbus-2.2.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e"/>
+    <item
+        dex="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/build/intermediates/pre-dexed/debug/gson-2.2.4-57295468d106c4acaf2e71d6e49baf3557c1981a.jar"
+        jar="/home/art/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/build/intermediates/pre-dexed/debug/retrofit-1.6.0-59873b96230d6d122c01ffcfb50889f9ba2cbc64.jar"
+        jar="/home/art/git/android_book_tests/commonsware/viewpager/T10-ViewPager/app/libs/retrofit-1.6.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="39a9e4b49ded46aa1b67d492fe287c4cebcd815c"/>
+
+</pre-dex-items>
