@@ -22,11 +22,26 @@ EmPubLite/t7_action_bar - T7 adds a couple of menu items. Only one Activity; it 
 
 EXAMPLES imported
 
-activities/Explicit 
+activities/Explicit p.335
 
 Simple 2-activity app. First activity has a single button that fills the screen. Pressing the button invokes the second activity, which has only a textview. Need to press BACK to go back. Items featured: AndroidManifest.xml has a second <Activity>. There is a layout xml and an implementation class for the second activity (called 'other').
 
+activities/Lifecycle
 
+Simple app that has log mesg in each lifecycle method (onStart, onStop, onPause, onResume,...)
+
+
+=============================================================
+
+EXAMPLES not yet imported
+
+Activities/Launch  p.340(?)
+
+Allows user to enter a URI/URL and displays it using an Intent that requests 'view' function. Very simple use of a 'non-local' activity.
+
+Activities/Extras p.347
+
+Adds extras to the intent. Otherwise similar to activites/Explicit.
 
 =============================================================
 
