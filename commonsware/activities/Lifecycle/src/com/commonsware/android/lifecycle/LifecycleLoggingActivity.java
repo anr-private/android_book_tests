@@ -22,7 +22,8 @@ public class LifecycleLoggingActivity extends Activity {
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    
+
+      // shows up as D/OtherActivity in the log
     Log.d(getClass().getSimpleName(), "onCreate()");
   }
   
