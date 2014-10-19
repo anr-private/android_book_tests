@@ -20,13 +20,19 @@ import android.view.View;
 
 public class DynamicFragmentsDemoActivity extends
     LifecycleLoggingActivity {
+
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
+
+      L.d(getClass().getSimpleName() + " onCreate returns");
   }
 
   public void showOther(View v) {
-    startActivity(new Intent(this, OtherActivity.class));
+
+      L.d(getClass().getSimpleName() + " showOther: starting the other Activity");
+
+      startActivity(new Intent(this, OtherActivity.class));
   }
 }
