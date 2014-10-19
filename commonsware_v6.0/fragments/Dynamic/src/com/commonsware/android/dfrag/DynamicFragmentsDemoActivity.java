@@ -18,6 +18,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+// See <proj-root>/ANR_README/logcat_*.log for log captures.
+
 public class DynamicFragmentsDemoActivity extends
     LifecycleLoggingActivity {
 
@@ -28,6 +30,9 @@ public class DynamicFragmentsDemoActivity extends
 
       L.d(getClass().getSimpleName() + " onCreate returns");
   }
+
+    // Called by ContentFragment.onClick(), which forwards the
+    // button-click event to us.
 
   public void showOther(View v) {
 

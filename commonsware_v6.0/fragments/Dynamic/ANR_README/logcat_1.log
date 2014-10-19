@@ -1,0 +1,76 @@
+Sample LOGCAT capture showing 
+  - startup in main gui/frag class DynamicFragmentsDemoActivity
+    and its _static_ fragment ContentFragment
+    (with associated xml main.xml and mainfrag.xml)
+
+  - press the button to load the 'other' GUI: OtherActivity
+    and its dynamic fragment OtherFragment
+    It uses no XML because it uses ListFragment which in turn
+    uses ListView and an ArrayAdapter that connects to a 
+    list of strings (found in OtherFragment.java).
+
+10-19 18:29:32.255  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate()
+10-19 18:29:32.370  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onAttach()
+10-19 18:29:32.370  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onCreate()
+10-19 18:29:32.380  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate returns
+10-19 18:29:32.380  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onActivityCreated()
+10-19 18:29:32.380  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStart()
+10-19 18:29:32.380  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStart()
+10-19 18:29:32.380  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onResume()
+10-19 18:29:32.385  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onResume()
+10-19 18:29:36.420  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity showOther: starting the other Activity
+10-19 18:29:36.445  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onPause()
+10-19 18:29:36.445  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onPause()
+10-19 18:29:36.480  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate()
+10-19 18:29:36.480  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onAttach()
+10-19 18:29:36.480  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onCreate()
+10-19 18:29:36.550  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStart()
+10-19 18:29:36.550  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStart()
+10-19 18:29:36.550  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onResume()
+10-19 18:29:36.550  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onResume()
+10-19 18:29:36.920  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStop()
+10-19 18:29:36.920  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStop()
+10-19 18:29:41.840  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onPause()
+10-19 18:29:41.840  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onPause()
+10-19 18:29:42.435  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStop()
+10-19 18:29:42.440  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStop()
+10-19 18:29:51.085  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onRestart()
+10-19 18:29:51.085  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStart()
+10-19 18:29:51.085  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStart()
+10-19 18:29:51.085  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onResume()
+10-19 18:29:51.085  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onResume()
+10-19 18:29:55.950  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onPause()
+10-19 18:29:55.950  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onPause()
+10-19 18:29:55.960  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onRestart()
+10-19 18:29:55.960  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStart()
+10-19 18:29:55.960  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStart()
+10-19 18:29:55.965  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onResume()
+10-19 18:29:55.965  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onResume()
+10-19 18:29:56.235  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStop()
+10-19 18:29:56.235  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStop()
+10-19 18:29:56.240  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDestroyView()
+10-19 18:29:56.240  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDestroy()
+10-19 18:29:56.245  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDetach()
+10-19 18:29:56.245  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onDestroy()
+10-19 18:29:58.050  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onPause()
+10-19 18:29:58.050  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onPause()
+10-19 18:29:58.740  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStop()
+10-19 18:29:58.760  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStop()
+10-19 18:29:58.760  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDestroyView()
+10-19 18:29:58.765  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDestroy()
+10-19 18:29:58.765  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDetach()
+10-19 18:29:58.770  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onDestroy()
+10-19 18:30:00.520  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate()
+10-19 18:30:00.605  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onAttach()
+10-19 18:30:00.605  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onCreate()
+10-19 18:30:00.615  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate returns
+10-19 18:30:00.615  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onActivityCreated()
+10-19 18:30:00.615  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStart()
+10-19 18:30:00.620  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStart()
+10-19 18:30:00.620  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onResume()
+10-19 18:30:00.620  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onResume()
+10-19 18:30:13.725  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onPause()
+10-19 18:30:13.725  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onPause()
+10-19 18:30:14.390  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStop()
+10-19 18:30:14.395  13759-13759/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStop()
+

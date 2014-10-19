@@ -29,6 +29,8 @@ import android.widget.ArrayAdapter;
 // The user can pick something from the list, but there
 // is nothing registered to receive such an event...
 
+// See <proj-root>/ANR_README/logcat_*.log for log captures.
+
 public class OtherFragment extends ListFragment {
 
 

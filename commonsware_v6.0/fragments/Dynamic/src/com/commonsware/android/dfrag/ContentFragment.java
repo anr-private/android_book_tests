@@ -22,8 +22,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+// See <proj-root>/ANR_README/logcat_*.log for log captures.
+
 public class ContentFragment extends Fragment implements
     View.OnClickListener {
+
   @Override
   public View onCreateView(LayoutInflater inflater,
                            ViewGroup container,
@@ -35,6 +38,7 @@ public class ContentFragment extends Fragment implements
     return(result);
   }
 
+    // Handles the button click, forwards it to our Activity
   @Override
   public void onClick(View v) {
     ((DynamicFragmentsDemoActivity)getActivity()).showOther(v);

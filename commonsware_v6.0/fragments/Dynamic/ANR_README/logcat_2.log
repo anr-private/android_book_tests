@@ -1,0 +1,69 @@
+LOGCAT CAPTURE
+
+The 'extended' logging is turned on in OtherActivity.onCreate()
+that logs each step of the fragment inflate process:
+ - get the FragmentManager
+ - create a FragmentTransaction
+ - add the OtherFragment
+ - commit
+
+The sequence of user actions taken to product this log:
+ - start the app [main gui loads]
+ - press the Button on main gui [loads the other activity and fragment]
+ - press BACK button to go back to main activity
+ - press BACK button to go back to Android O/S
+
+
+10-19 18:53:19.185  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate()
+10-19 18:53:19.255  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onAttach()
+10-19 18:53:19.255  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onCreate()
+10-19 18:53:19.265  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onCreate returns
+10-19 18:53:19.265  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onActivityCreated()
+10-19 18:53:19.265  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStart()
+10-19 18:53:19.265  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStart()
+10-19 18:53:19.270  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onResume()
+10-19 18:53:19.270  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onResume()
+10-19 18:53:27.145  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity showOther: starting the other Activity
+10-19 18:53:27.195  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onPause()
+10-19 18:53:27.195  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onPause()
+10-19 18:53:27.235  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate()
+10-19 18:53:27.240  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: INFLATE the OtherFragment
+10-19 18:53:27.240  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: INFLATE the OtherFragment: get frag mgr
+10-19 18:53:27.240  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: GOT FRAG MGR=FragmentManager{41578d48 in OtherActivity{41578c70}}
+10-19 18:53:27.240  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: GOT FRAG TRANSACTION=android.app.BackStackRecord@4157a208
+10-19 18:53:27.245  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: ADD the OtherFragment to transaction
+10-19 18:53:27.245  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: COMMIT the fragment transaction
+10-19 18:53:27.245  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: COMMIT completed
+10-19 18:53:27.245  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onCreate: INFLATED ...  the OtherFragment
+10-19 18:53:27.245  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onAttach()
+10-19 18:53:27.250  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onCreate()
+10-19 18:53:27.330  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStart()
+10-19 18:53:27.330  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStart()
+10-19 18:53:27.335  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onResume()
+10-19 18:53:27.335  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onResume()
+10-19 18:53:27.710  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStop()
+10-19 18:53:27.715  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStop()
+10-19 18:53:40.085  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onPause()
+10-19 18:53:40.085  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onPause()
+10-19 18:53:40.100  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onRestart()
+10-19 18:53:40.100  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStart()
+10-19 18:53:40.100  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStart()
+10-19 18:53:40.100  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onResume()
+10-19 18:53:40.100  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onResume()
+10-19 18:53:40.360  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onStop()
+10-19 18:53:40.360  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onStop()
+10-19 18:53:40.360  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDestroyView()
+10-19 18:53:40.370  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDestroy()
+10-19 18:53:40.370  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherFragment onDetach()
+10-19 18:53:40.370  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ OtherActivity onDestroy()
+10-19 18:53:43.015  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onPause()
+10-19 18:53:43.015  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onPause()
+10-19 18:53:43.675  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onStop()
+10-19 18:53:43.685  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onStop()
+10-19 18:53:43.690  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDestroyView()
+10-19 18:53:43.690  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDestroy()
+10-19 18:53:43.695  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ ContentFragment onDetach()
+10-19 18:53:43.705  14209-14209/com.commonsware.android.dfrag D/FRAGDYN﹕ DynamicFragmentsDemoActivity onDestroy()
+
+### end ###
+

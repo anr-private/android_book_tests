@@ -14,17 +14,74 @@
 
 package com.commonsware.android.dfrag;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 
-public class OtherActivity extends LifecycleLoggingActivity {
-  @Override
-  public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
+// See <proj-root>/ANR_README/logcat_*.log for log captures.
 
-    if (getFragmentManager().findFragmentById(android.R.id.content) == null) {
-      getFragmentManager().beginTransaction()
-                          .add(android.R.id.content,
-                               new OtherFragment()).commit();
+public class OtherActivity extends LifecycleLoggingActivity {
+
+    /* Brief 'normal' version, uses Builder pattern to chain the calls that
+     * create the FragmentManager and FragmentTransaction.
+     * /
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+
+        if (getFragmentManager().findFragmentById(android.R.id.content) == null) {
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment");
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment");
+            getFragmentManager().beginTransaction()
+                                .add(android.R.id.content, new OtherFragment())
+                                .commit();
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATED ...  the OtherFragment");
+        }
     }
-  }
+    / * */
+
+
+    /* Step-by-step logging version that logs each step of the transaction.
+     */
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+
+        super.onCreate(savedInstanceState);
+
+
+        if (getFragmentManager().findFragmentById(android.R.id.content) == null) {
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment");
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment: get frag mgr");
+
+            FragmentManager fm = getFragmentManager();
+            L.d(getClass().getSimpleName() + " onCreate: GOT FRAG MGR=" + fm);
+
+            FragmentTransaction ft = fm.beginTransaction();
+            L.d(getClass().getSimpleName() + " onCreate: GOT FRAG TRANSACTION=" + ft);
+
+            L.d(getClass().getSimpleName() + " onCreate: ADD the OtherFragment to transaction");
+            ft.add(android.R.id.content, new OtherFragment());
+
+            L.d(getClass().getSimpleName() + " onCreate: COMMIT the fragment transaction");
+            ft.commit();
+            L.d(getClass().getSimpleName() + " onCreate: COMMIT completed");
+
+
+            L.d(getClass().getSimpleName() + " onCreate: INFLATED ...  the OtherFragment");
+        }
+    }
+    /* */
+
+
+
 }
+
+// ### end ###
