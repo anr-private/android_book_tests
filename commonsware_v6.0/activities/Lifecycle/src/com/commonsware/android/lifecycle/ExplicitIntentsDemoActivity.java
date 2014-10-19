@@ -30,17 +30,25 @@ import android.view.View;
 
 public class ExplicitIntentsDemoActivity extends
     LifecycleLoggingActivity {
+
   @Override
   public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.main);
+
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.main);
+
+      L.d("ExplicitIntents.onCreate returns");
   }
 
   public void showOther(View v) {
-    Intent other=new Intent(this, OtherActivity.class);
 
-    other.putExtra(OtherActivity.EXTRA_MESSAGE,
+      Intent other=new Intent(this, OtherActivity.class);
+
+      other.putExtra(OtherActivity.EXTRA_MESSAGE,
                    getString(R.string.other));
-    startActivity(other);
+
+      L.d("ExplicitIntents.showOther Start the other activity");
+
+      startActivity(other);
   }
 }

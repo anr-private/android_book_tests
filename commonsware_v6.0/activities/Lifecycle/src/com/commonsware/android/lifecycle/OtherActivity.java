@@ -22,11 +22,15 @@ public class OtherActivity extends LifecycleLoggingActivity {
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.other);
 
-    TextView tv=(TextView)findViewById(R.id.msg);
+      L.d("OtherActivity.onCreate  bundle=" + savedInstanceState);
 
-    tv.setText(getIntent().getStringExtra(EXTRA_MESSAGE));
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.other);
+
+      TextView tv=(TextView)findViewById(R.id.msg);
+      tv.setText(getIntent().getStringExtra(EXTRA_MESSAGE));
+
+      L.d("OtherActivity.onCreate returns");
   }
 }
