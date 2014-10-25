@@ -19,14 +19,24 @@ import android.os.Bundle;
 import android.view.View;
 
 // See <proj-root>/ANR_README/logcat_*.log for log captures.
+//
+// This 'main' activity uses a static Fragment that is
+// declared <fragment> in layout/main.xml and
+// specifies mainfrag.xml as its content.
+// (File is layout/mainfrag.xml).
+//
+// The 'other' activity uses a dynamic fragment that
+// is created in OtherActivity.onCreate()
+
 
 public class DynamicFragmentsDemoActivity extends
     LifecycleLoggingActivity {
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.main);
+
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.main);
 
       L.d(getClass().getSimpleName() + " onCreate returns");
   }

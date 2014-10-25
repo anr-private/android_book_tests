@@ -59,8 +59,10 @@ public class OtherActivity extends LifecycleLoggingActivity {
 
             L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment");
 
-            L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment: get frag mgr");
+            // Create the fragment (we don't need it till later, but ...)
+            OtherFragment frag = new OtherFragment();
 
+            //L.d(getClass().getSimpleName() + " onCreate: INFLATE the OtherFragment: get frag mgr");
             FragmentManager fm = getFragmentManager();
             L.d(getClass().getSimpleName() + " onCreate: GOT FRAG MGR=" + fm);
 
@@ -68,7 +70,17 @@ public class OtherActivity extends LifecycleLoggingActivity {
             L.d(getClass().getSimpleName() + " onCreate: GOT FRAG TRANSACTION=" + ft);
 
             L.d(getClass().getSimpleName() + " onCreate: ADD the OtherFragment to transaction");
-            ft.add(android.R.id.content, new OtherFragment());
+            // android.R.id.content is the ref for the content of this activity
+            // which refers to the default view container that gets created 'automatically'
+            // Ie it is where the results of setContentView() would go
+            // (which this class does not override - apparently the transaction does that).
+            // IOW the ref refers to the container into which the View that we
+            // create for this Activity goes. It's very likely a ViewGroup
+            // created by Android when it creates the Activity - so the activity
+            // has a place to put its View.
+
+            //ft.add(android.R.id.content, new OtherFragment());
+            ft.add(android.R.id.content, frag);
 
             L.d(getClass().getSimpleName() + " onCreate: COMMIT the fragment transaction");
             ft.commit();

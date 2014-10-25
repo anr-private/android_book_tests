@@ -20,6 +20,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 
 // Extends ListFragment -- which uses a ListView as its GUI
 // and so there is no XML for this fragment
@@ -47,13 +49,34 @@ public class OtherFragment extends ListFragment {
     setListAdapter(new ArrayAdapter<String>(getActivity(),
                     android.R.layout.simple_list_item_1, items));
   }
-  
+
+
+    @Override
+    public void onListItemClick(ListView lv, View v, int position, long id)
+    {
+        // lv is a ListView
+        // v is a TextView
+        // both position and id are 0..N-1
+
+        L.i("ONLIST_ITEM_CLICK called. lv=" + lv);
+        L.i("ONLIST_ITEM_CLICK called. view=" + v);
+        if (v != null) {
+            if (v instanceof TextView) {
+                TextView tv = (TextView) v;
+                L.i("ONLIST_ITEM_CLICK called. view.text=" + tv.getText());
+            }
+        }
+        L.i("ONLIST_ITEM_CLICK called. pos=" + position);
+        L.i("ONLIST_ITEM_CLICK called. id=" + id);
+    }
+
+
   @Override
   public void onAttach(Activity a) {
     super.onAttach(a);
     L.d(getClass().getSimpleName()+" onAttach()");
   }
-  
+
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);

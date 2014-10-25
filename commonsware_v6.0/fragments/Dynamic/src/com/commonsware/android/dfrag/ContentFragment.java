@@ -41,7 +41,8 @@ public class ContentFragment extends Fragment implements
     // Handles the button click, forwards it to our Activity
   @Override
   public void onClick(View v) {
-    ((DynamicFragmentsDemoActivity)getActivity()).showOther(v);
+
+      ((DynamicFragmentsDemoActivity)getActivity()).showOther(v);
   }
   
   @Override
