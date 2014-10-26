@@ -30,3 +30,5 @@ public class ExplicitIntentsDemoActivity extends Activity {
     startActivity(new Intent(this, OtherActivity.class));
   }
 }
+
+// ### end ###

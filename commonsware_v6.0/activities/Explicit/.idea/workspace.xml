@@ -12,6 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4c5ebfc-f87e-439c-9cc8-e08eeb67e205" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../README_ART.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/commonsware/android/exint/ExplicitIntentsDemoActivity.java" afterPath="$PROJECT_DIR$/src/com/commonsware/android/exint/ExplicitIntentsDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/commonsware/android/exint/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/commonsware/android/exint/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Explicit.iws" />
@@ -37,21 +41,34 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.117647" vertical-offset="0" max-vertical-offset="300">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExplicitIntentsDemoActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/commonsware/android/exint/ExplicitIntentsDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.31070197" vertical-offset="0" max-vertical-offset="869">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="540">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -60,14 +77,14 @@
       </file>
       <file leaf-file-name="other.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/other.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -501,7 +518,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1410006997000" />
+        <entry key="$PROJECT_DIR$" value="1413667248575" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -528,86 +545,86 @@
               <option name="name" value="Explicit" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="/usr/local/gradle/src/language-base" />
-                  <option value="/usr/local/gradle/src/signing" />
-                  <option value="/usr/local/gradle/src/plugins" />
-                  <option value="/usr/local/gradle/src/resources" />
-                  <option value="/usr/local/gradle/src/announce" />
-                  <option value="/usr/local/gradle/src/cpp" />
-                  <option value="/usr/local/gradle/src/ivy" />
-                  <option value="/usr/local/gradle/src/core-impl" />
-                  <option value="/usr/local/gradle/src/reporting" />
-                  <option value="/usr/local/gradle/src/diagnostics" />
-                  <option value="/usr/local/gradle/src/ear" />
-                  <option value="/usr/local/gradle/src/internal-testing" />
-                  <option value="/usr/local/gradle/src/launcher" />
-                  <option value="/usr/local/gradle/src/build-comparison" />
                   <option value="/usr/local/gradle/src/jacoco" />
-                  <option value="/usr/local/gradle/src/core" />
-                  <option value="/usr/local/gradle/src/publish" />
-                  <option value="/usr/local/gradle/src/open-api" />
-                  <option value="/usr/local/gradle/src/base-services" />
-                  <option value="/usr/local/gradle/src/internal-integ-testing" />
-                  <option value="/usr/local/gradle/src/maven" />
-                  <option value="/usr/local/gradle/src/messaging" />
-                  <option value="/usr/local/gradle/src/code-quality" />
-                  <option value="/usr/local/gradle/src/wrapper" />
-                  <option value="/usr/local/gradle/src/ui" />
+                  <option value="/usr/local/gradle/src/signing" />
                   <option value="/usr/local/gradle/src/build-init" />
-                  <option value="/usr/local/gradle/src/base-services-groovy" />
-                  <option value="/usr/local/gradle/src/sonar" />
-                  <option value="/usr/local/gradle/src/jetty" />
-                  <option value="/usr/local/gradle/src/scala" />
-                  <option value="/usr/local/gradle/src/ide" />
-                  <option value="/usr/local/gradle/src/antlr" />
-                  <option value="/usr/local/gradle/src/cli" />
-                  <option value="/usr/local/gradle/src/language-jvm" />
-                  <option value="/usr/local/gradle/src/osgi" />
+                  <option value="/usr/local/gradle/src/plugins" />
                   <option value="/usr/local/gradle/src/javascript" />
+                  <option value="/usr/local/gradle/src/build-comparison" />
+                  <option value="/usr/local/gradle/src/publish" />
+                  <option value="/usr/local/gradle/src/scala" />
+                  <option value="/usr/local/gradle/src/messaging" />
+                  <option value="/usr/local/gradle/src/ivy" />
+                  <option value="/usr/local/gradle/src/launcher" />
                   <option value="/usr/local/gradle/src/tooling-api" />
+                  <option value="/usr/local/gradle/src/maven" />
+                  <option value="/usr/local/gradle/src/ide" />
+                  <option value="/usr/local/gradle/src/open-api" />
+                  <option value="/usr/local/gradle/src/ui" />
+                  <option value="/usr/local/gradle/src/reporting" />
+                  <option value="/usr/local/gradle/src/ear" />
+                  <option value="/usr/local/gradle/src/base-services-groovy" />
+                  <option value="/usr/local/gradle/src/base-services" />
+                  <option value="/usr/local/gradle/src/code-quality" />
+                  <option value="/usr/local/gradle/src/osgi" />
+                  <option value="/usr/local/gradle/src/internal-integ-testing" />
+                  <option value="/usr/local/gradle/src/cpp" />
+                  <option value="/usr/local/gradle/src/language-base" />
+                  <option value="/usr/local/gradle/src/wrapper" />
+                  <option value="/usr/local/gradle/src/announce" />
+                  <option value="/usr/local/gradle/src/sonar" />
+                  <option value="/usr/local/gradle/src/resources" />
+                  <option value="/usr/local/gradle/src/jetty" />
+                  <option value="/usr/local/gradle/src/antlr" />
+                  <option value="/usr/local/gradle/src/language-jvm" />
+                  <option value="/usr/local/gradle/src/diagnostics" />
+                  <option value="/usr/local/gradle/src/internal-testing" />
+                  <option value="/usr/local/gradle/src/cli" />
+                  <option value="/usr/local/gradle/src/core" />
+                  <option value="/usr/local/gradle/src/core-impl" />
                   <option value="/usr/local/gradle/src/native" />
-                  <option value="/usr/local/gradle/lib/gradle-open-api-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-native-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-ui-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-messaging-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-docs-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-resources-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-wrapper-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-core-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-tooling-api-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-base-services-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/groovy-all-1.8.6.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-launcher-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-cli-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/gradle-base-services-groovy-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/ant-1.9.2.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-base-services-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-core-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-ui-1.12.jar" />
                   <option value="/usr/local/gradle/lib/ivy-2.2.0.jar" />
-                  <option value="/usr/local/gradle/lib/ant-launcher-1.9.2.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-javascript-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-jacoco-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-build-init-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-diagnostics-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-maven-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-sonar-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-scala-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-core-impl-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-cpp-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-reporting-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-antlr-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-language-base-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-code-quality-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-ide-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-jetty-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-build-comparison-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-ivy-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-publish-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-ear-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-signing-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-language-jvm-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-announce-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-plugins-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/gradle-osgi-1.10.jar" />
-                  <option value="/usr/local/gradle/lib/plugins/ant-antlr-1.9.2.jar" />
+                  <option value="/usr/local/gradle/lib/ant-launcher-1.9.3.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-launcher-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-base-services-groovy-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/ant-1.9.3.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-wrapper-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-tooling-api-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/groovy-all-1.8.6.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-native-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-docs-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-cli-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-messaging-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-open-api-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/gradle-resources-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-jacoco-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-reporting-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-plugins-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-diagnostics-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-build-init-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-language-base-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-ide-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-antlr-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-osgi-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-ear-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-cpp-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-language-jvm-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-ivy-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-build-comparison-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-maven-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-code-quality-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-jetty-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-sonar-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-announce-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-javascript-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-signing-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-core-impl-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-publish-1.12.jar" />
+                  <option value="/usr/local/gradle/lib/plugins/gradle-scala-1.12.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -624,13 +641,13 @@
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/other.xml" />
+        <option value="$PROJECT_DIR$/src/com/commonsware/android/exint/ExplicitIntentsDemoActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
-    <option name="y" value="61" />
-    <option name="width" value="1733" />
+    <option name="y" value="89" />
+    <option name="width" value="1600" />
     <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -659,9 +676,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -677,6 +692,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Explicit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Explicit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Explicit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -732,6 +765,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -774,6 +809,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -799,19 +847,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -923,13 +958,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="61" width="1733" height="1011" extended-state="0" />
+    <frame x="0" y="89" width="1600" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976957" sideWeight="0.49970433" order="3" side_tool="false" content_ui="tabs" />
@@ -938,6 +973,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976957" sideWeight="0.5002957" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -945,14 +981,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24955648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -980,25 +1015,63 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/other.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/other.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+          <caret line="5" column="102" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/other.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -1018,25 +1091,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/other.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="815">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="815">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -1044,6 +1106,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="841">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.117647" vertical-offset="0" max-vertical-offset="300">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/commonsware/android/exint/ExplicitIntentsDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31070197" vertical-offset="0" max-vertical-offset="869">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
