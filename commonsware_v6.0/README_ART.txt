@@ -19,5 +19,14 @@ Dynamic - like Static but main frag is static,
   created using FragmentManager.
 
 
+===  configchange/Fragments  =====
+
+Fragments - simple demo showing that a Fragment
+  can be set to be 'retain'ed and so its
+  state survivies across orientation changes.
+  Project has 2 buttons, Pick and View, to 
+  pick and view a Contact. The Contact's URI
+  is retained in the Fragment's state.
+
 ###
 
