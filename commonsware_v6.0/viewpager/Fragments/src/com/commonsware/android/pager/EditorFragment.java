@@ -22,9 +22,12 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 public class EditorFragment extends Fragment {
+
   private static final String KEY_POSITION="position";
 
+
   static EditorFragment newInstance(int position) {
+
     EditorFragment frag=new EditorFragment();
     Bundle args=new Bundle();
 
@@ -42,7 +45,8 @@ public class EditorFragment extends Fragment {
     EditText editor=(EditText)result.findViewById(R.id.editor);
     int position=getArguments().getInt(KEY_POSITION, -1);
 
-    editor.setHint(String.format(getString(R.string.hint), position + 1));
+      // editor.setHint(String.format(getString(R.string.hint), position + 1, this.getId()));
+      editor.setHint(String.format(" Editor pos=" + (position + 1) + " id=" + this.getId()));
 
     return(result);
   }

@@ -53,5 +53,24 @@ FragmentBundle - like Bundle and Fragment.
   level of persistence.)
 
 
+=== viewpager  =====
+
+Fragments - uses FragmentPageAdapter as adapter to
+  provide pages to ViewPager that is main gui.
+  Demo shows 10 pages that you can page through;
+  each page is a Fragment that contains a single
+  EditText View as the 'editor' for that page.
+  The Fragment subclass EditorFragment puts a 
+  hint onto each EditText to show the editor 
+  number 1..10.
+
+
+
+
+
+
+
+
+
 ###
 
