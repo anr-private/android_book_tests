@@ -324,6 +324,8 @@ public class SnakeView extends TileView {
         mBackgroundView = backgroundView;
     }
 
+    // ****************************************************************
+
     /**
      * Updates the current mode of the application (RUNNING or PAUSED or the like) as well as sets
      * the visibility of textview for notification
@@ -331,6 +333,7 @@ public class SnakeView extends TileView {
      * @param newMode
      */
     public void setMode(int newMode) {
+
         int oldMode = mMode;
         mMode = newMode;
 
@@ -359,6 +362,7 @@ public class SnakeView extends TileView {
         }
         if (newMode == LOSE) {
             //mArrowsView.setVisibility(View.GONE);
+
             mBackgroundView.setVisibility(View.GONE);
             str = res.getString(R.string.mode_lose, mScore);
         }
@@ -366,6 +370,8 @@ public class SnakeView extends TileView {
         mStatusText.setText(str);
         mStatusText.setVisibility(View.VISIBLE);
     }
+
+    // ****************************************************************
 
     /**
      * @return the Game state as Running, Ready, Paused, Lose
@@ -406,6 +412,8 @@ public class SnakeView extends TileView {
         }
         mAppleList.add(newCoord);
     }
+
+    // ****************************************************************
 
     /**
      * Handles the basic update loop, checking to see if we are in the running state, determining if
@@ -586,3 +594,5 @@ public class SnakeView extends TileView {
     }
 
 }
+
+// ### end ###

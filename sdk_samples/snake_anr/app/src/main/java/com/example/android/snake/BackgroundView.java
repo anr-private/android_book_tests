@@ -21,7 +21,9 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import java.util.Arrays;
@@ -30,6 +32,8 @@ import java.util.Arrays;
  * Background View: Draw 4 full-screen RGBY triangles
  */
 public class BackgroundView extends View {
+
+    private static final String TAG = "SnakeBkgndView";
 
     private int[] mColors = new int[4];
 
@@ -40,7 +44,9 @@ public class BackgroundView extends View {
     private float[] mVertexPoints = null;
 
     public BackgroundView(Context context, AttributeSet attrs) {
+
         super(context, attrs);
+
         setFocusable(true);
 
         // retrieve colors for 4 segments from styleable properties
@@ -55,6 +61,9 @@ public class BackgroundView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
+
+        Log.i(TAG, "ON-DRAW  vertexPts.len=" + mVertexPoints.length);
+
         assert(mVertexPoints != null);
 
         // Colors for each vertex
@@ -71,11 +80,19 @@ public class BackgroundView extends View {
                     triangle * 2, 3, // Use 3 vertices via Index Array with offset 2
                     new Paint());
         }
+        // @@@ added
+        Rect rect = new Rect(50, 100, 150, 200);
+        Paint p = new Paint();
+        p.setColor(0xFFFFFFFF);
+        canvas.drawRect(rect, p);
     }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+
         super.onSizeChanged(w, h, oldw, oldh);
+
+        Log.i(TAG, "ON-SIZE-CHGD w=" + w + " h=" + h);
 
      // Construct our center and four corners
         mVertexPoints = new float[] {
@@ -88,3 +105,5 @@ public class BackgroundView extends View {
     }
 
 }
+
+// ### end ###
